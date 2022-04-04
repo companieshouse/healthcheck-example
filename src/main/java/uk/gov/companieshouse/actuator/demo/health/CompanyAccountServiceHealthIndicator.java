@@ -17,7 +17,7 @@ import uk.gov.companieshouse.api.handler.exception.URIValidationException;
 import uk.gov.companieshouse.api.model.accounts.CompanyAccountsApi;
 
 @Component
-public class OtherServiceHealthIndicator implements HealthIndicator {
+public class CompanyAccountServiceHealthIndicator implements HealthIndicator {
 
     @Autowired
     private ApiClientService apiClientService;
